@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript & the DOM</title>
+    <script defer src = "script.js"> </script>
+</head>
+<body>
+    <h1>Assignment 1: Javascript and the DOM</h1>
+    <!-- Manipulate at least one CSS property through the DOM -->
+    <h2>Click button for background color change.</h2>
+    <p>If you click here first, then the picture below will change as well.</p>
+    <button onclick = "changeBackground()"> Click to change background to gray.</button>
+    
+    <!-- Manipulate at least one other DOM property that is not a CSS property. -->
+    <h2 id = "show-text"> Text will change! </h2>
+    <button onclick = "notCSSProp()"> Click button to show "Hello World" text.</button>
+    
+   <br>
+   <br>
+
+    <!-- Respond to at least two different types of events using event listeners. -->
+    <h2>Click on the tortoise to change to a different picture.</h2>
+    <p>It is suggested that you click the tortoise first.</p>
+    <img src = "img/tortoise.jpg" alt = "Images" id = "pics" height = "300" width = "300">
+
+    <h2>Mouse your mouse anywhere on the screen so that the image can change.</h2>
+    <p>You might need to refresh the page and move the mouse over. It's fast!</p>
+    <img src = img/rock.jpg alt = "Pics changing" id = "pics1" height = "300" width = 300>
+    <h2 id = "show-text1">Rock</h2>
+
+
+</body>
+</html>
